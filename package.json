@@ -1,16 +1,16 @@
 {
-  "name": "react-boilerplate",
-  "version": "3.5.0",
+  "name": "Jesse App",
+  "version": "0.0.1",
   "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "git://github.com/luciano-jr/JesseApp.git"
   },
   "engines": {
     "npm": ">=3",
     "node": ">=5"
   },
-  "author": "Max Stoiber",
+  "author": "Luciano Junior",
   "license": "MIT",
   "scripts": {
     "analyze:clean": "rimraf stats.json",
@@ -213,7 +213,7 @@
   },
   "dependencies": {
     "babel-polyfill": "6.23.0",
-    "chalk": "1.1.3",
+    "chalk": "^1.1.3",
     "compression": "1.6.2",
     "cross-env": "5.0.0",
     "express": "4.15.3",
@@ -225,6 +225,8 @@
     "invariant": "2.2.2",
     "ip": "1.1.5",
     "lodash": "4.17.4",
+    "material-ui": "^1.0.0-beta.12",
+    "material-ui-icons": "^1.0.0-beta.10",
     "minimist": "1.2.0",
     "prop-types": "15.5.10",
     "react": "15.6.1",
@@ -241,6 +243,7 @@
     "reselect": "3.0.1",
     "sanitize.css": "4.1.0",
     "styled-components": "2.0.0",
+    "typeface-roboto": "^0.0.35",
     "warning": "3.0.0",
     "whatwg-fetch": "2.0.3"
   },
@@ -290,7 +293,7 @@
     "pre-commit": "1.2.2",
     "react-test-renderer": "15.6.1",
     "rimraf": "2.6.1",
-    "shelljs": "0.7.7",
+    "shelljs": "^0.7.7",
     "style-loader": "0.18.1",
     "url-loader": "0.5.8",
     "webpack": "3.5.5",
