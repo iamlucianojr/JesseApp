@@ -32,6 +32,9 @@ function SplashScreen(props) {
           { props.subtitle }
         </Typography>
         <img src="http://lorempixel.com/400/200/city/1/" className={classes.image} />
+        { props.guestLoginButton }
+        { props.loginButton }
+
       </div>
     );
   }

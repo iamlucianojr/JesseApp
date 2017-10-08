@@ -6619,6 +6619,10 @@ react-event-listener@^0.5.0:
     prop-types "^15.5.10"
     warning "^3.0.0"
 
+react-facebook-login-component@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/react-facebook-login-component/-/react-facebook-login-component-0.9.0.tgz#5eaf45f7534b811095a33158783c6f01b7156152"
+
 react-helmet@5.1.3:
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.1.3.tgz#cd40626593a29eecf684b6d38d711f44c48188af"
