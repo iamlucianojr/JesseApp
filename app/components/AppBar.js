@@ -40,7 +40,7 @@ function ButtonAppBar(props) {
         <Toolbar>
           <Tooltip id="tooltip-top-end" title="Open Menu" placement="bottom">
             <IconButton className={classes.menuButton} color="contrast" aria-label="Menu">
-                <SimpleMenu></SimpleMenu>
+              <SimpleMenu></SimpleMenu>
             </IconButton>
           </Tooltip>
           <Typography type="title" color="inherit" className={classes.flex}>
@@ -52,10 +52,7 @@ function ButtonAppBar(props) {
           </Tooltip>
         </Toolbar>
       </AppBar>
-
-        <BottomNavigation />
-
-
+      <BottomNavigation />
     </div>
   );
 }
