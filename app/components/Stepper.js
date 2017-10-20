@@ -13,7 +13,6 @@ import { FacebookLogin } from 'react-facebook-login-component';
 import { push } from 'react-router-redux';
 
 
-
 const styles = {
   root: {
     width: '100%',
@@ -42,16 +41,18 @@ class ProgressMobileStepper extends React.Component {
       activeStep: this.state.activeStep - 1,
     });
   };
-
   render() {
     const classes = this.props.classes;
     return (
       <div>
+        <input type="text" onChange={this.props.handler.bind(this)} />
         <SplashScreen
           title={messages.screens.one.title}
           subtitle={messages.screens.one.subtitle}
           active={this.state.activeStep === 0}
-        />
+        >
+
+        </SplashScreen>
         <SplashScreen
           title={messages.screens.two.title}
           subtitle={messages.screens.two.subtitle}
@@ -111,6 +112,7 @@ class ProgressMobileStepper extends React.Component {
 
 ProgressMobileStepper.propTypes = {
   classes: PropTypes.object.isRequired,
+  handler: PropTypes.func,
 };
 
 export default withStyles(styles)(ProgressMobileStepper);
